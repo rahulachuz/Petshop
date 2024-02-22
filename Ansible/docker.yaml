@@ -22,7 +22,7 @@
         password: dckr_pat_nq0vAF19mGPYeT4TcnSSuLK2IvY
 
     - name: Push image
-      command: docker push rahulachuz/petstore:latest
+      command: docker push rahulachuz/rahulachuz68:latest
 
     - name: Run container
-      command: docker run -d --name pet1 -p 8081:8080 rahulachuz/petstore:latest
+      command: docker run -d --name pet1 -p 8081:8080 rahulachuz/rahulachuz68:latest
